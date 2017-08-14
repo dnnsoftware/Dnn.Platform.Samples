@@ -1,0 +1,53 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="HelloWorld.DNNModule" type="Library" version="00.00.01">
+      <friendlyName>HelloWorld.DNNModule</friendlyName>
+      <description>Dnn Corp HelloWorld.DNNModule module</description>
+      <iconFile>~/Images/icon_extensions_32px.png</iconFile>
+      <owner>
+        <name>Amarjit Dhunna</name>
+        <organization>Amarjit Dhunna</organization>
+        <url>http://dnnsoftware.com</url>
+        <email>amarjit.dhunna@dnnsoftware.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">07.00.02</dependency>
+      </dependencies>
+
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/HelloWorld.DNNModule</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>HelloWorld.DNNModule</moduleName>
+            <foldername>HelloWorld.DNNModule</foldername>
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>HelloWorld.DNNModule</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>HelloWorld.DNNModule.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

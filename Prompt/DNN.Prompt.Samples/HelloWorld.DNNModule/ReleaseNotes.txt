@@ -1,0 +1,14 @@
+﻿<h3>HelloWorld.DNNModule</h3>
+<p class="Contributor">
+	Amarjit Dhunna <br />
+	<a href="mailto:amar31282@gmail.com">amar31282@gmail.com</a><br />
+	or <a href="mailto:amarjit.dhunna@dnnsoftware.com">amarjit.dhunna@dnnsoftware.com</a>
+</p>
+<hr/>
+<div class="License">
+	<h3>Hello World Sample</h3>
+	<p class="Owner">
+		<b>Version 00.00.01</b><br /><br />
+	</p>
+	<h4>Hello World Demo for DNN Promp</h4>
+</div>
